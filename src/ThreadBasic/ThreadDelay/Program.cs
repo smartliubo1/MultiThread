@@ -1,25 +1,25 @@
 ﻿using System;
 using System.Threading;
 
-namespace ThreadCreate
+namespace ThreadDelay
 {
     class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-
-            Thread thread = new Thread(PrintNumbers);
+            Thread thread = new Thread(PrintNumbersWithDelay);
             thread.Start();
             Console.WriteLine("-----------");
             PrintNumbersSync(1);
         }
 
-        static void PrintNumbers()
+        static void PrintNumbersWithDelay()
         {
             Console.WriteLine("Starting...");
             for (int i = 1; i < 10; i++)
             {
+                Thread.Sleep(TimeSpan.FromSeconds(2));
                 Console.WriteLine(i);
             }
         }
@@ -29,8 +29,9 @@ namespace ThreadCreate
             Console.WriteLine("Starting...");
             for (int i = 1; i < 10; i++)
             {
-                Console.WriteLine($"{number}"+i);
+                Console.WriteLine($"{number}" + i);
             }
         }
+
     }
 }
