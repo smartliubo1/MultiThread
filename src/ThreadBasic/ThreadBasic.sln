@@ -3,15 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadCreate", "ThreadCreate\ThreadCreate.csproj", "{2B9330E8-1E9D-44FD-A61A-75F6A0CA6E8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadCreate", "ThreadCreate\ThreadCreate.csproj", "{2B9330E8-1E9D-44FD-A61A-75F6A0CA6E8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadDelay", "ThreadDelay\ThreadDelay.csproj", "{4670F1F7-1EED-46CE-8B45-CF1150338052}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadDelay", "ThreadDelay\ThreadDelay.csproj", "{4670F1F7-1EED-46CE-8B45-CF1150338052}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadWaiting", "ThreadWaiting\ThreadWaiting.csproj", "{FE22C991-A3CC-4C32-913A-870412C4D3A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadWaiting", "ThreadWaiting\ThreadWaiting.csproj", "{FE22C991-A3CC-4C32-913A-870412C4D3A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadAbort", "ThreadAbort\ThreadAbort.csproj", "{9A2F5C52-FB43-4152-A8CC-5293A71AEAFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadAbort", "ThreadAbort\ThreadAbort.csproj", "{9A2F5C52-FB43-4152-A8CC-5293A71AEAFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadStatus", "ThreadStatus\ThreadStatus.csproj", "{5840926C-E25D-48D7-B657-CF4E9F451584}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadStatus", "ThreadStatus\ThreadStatus.csproj", "{5840926C-E25D-48D7-B657-CF4E9F451584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPriority", "ThreadPriority\ThreadPriority.csproj", "{64AAE9D9-EA0F-457A-A7C8-8805C7B41B4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadGround", "ThreadGround\ThreadGround.csproj", "{C7DD7D74-7D73-4959-8D41-41E93E11DBDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadParams", "ThreadParams\ThreadParams.csproj", "{15C45C04-841B-424B-9FAB-629E7C314820}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadLock", "ThreadLock\ThreadLock.csproj", "{E936F066-A9D8-4D56-B28A-8EEA1DFAC436}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadMonitor", "ThreadMonitor\ThreadMonitor.csproj", "{13C9C49D-F5FC-4767-B7A5-C89CA67F1BD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +49,26 @@ Global
 		{5840926C-E25D-48D7-B657-CF4E9F451584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5840926C-E25D-48D7-B657-CF4E9F451584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5840926C-E25D-48D7-B657-CF4E9F451584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64AAE9D9-EA0F-457A-A7C8-8805C7B41B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64AAE9D9-EA0F-457A-A7C8-8805C7B41B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64AAE9D9-EA0F-457A-A7C8-8805C7B41B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64AAE9D9-EA0F-457A-A7C8-8805C7B41B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7DD7D74-7D73-4959-8D41-41E93E11DBDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7DD7D74-7D73-4959-8D41-41E93E11DBDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7DD7D74-7D73-4959-8D41-41E93E11DBDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7DD7D74-7D73-4959-8D41-41E93E11DBDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C45C04-841B-424B-9FAB-629E7C314820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C45C04-841B-424B-9FAB-629E7C314820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C45C04-841B-424B-9FAB-629E7C314820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C45C04-841B-424B-9FAB-629E7C314820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E936F066-A9D8-4D56-B28A-8EEA1DFAC436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E936F066-A9D8-4D56-B28A-8EEA1DFAC436}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E936F066-A9D8-4D56-B28A-8EEA1DFAC436}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E936F066-A9D8-4D56-B28A-8EEA1DFAC436}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C9C49D-F5FC-4767-B7A5-C89CA67F1BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C9C49D-F5FC-4767-B7A5-C89CA67F1BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C9C49D-F5FC-4767-B7A5-C89CA67F1BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C9C49D-F5FC-4767-B7A5-C89CA67F1BD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
