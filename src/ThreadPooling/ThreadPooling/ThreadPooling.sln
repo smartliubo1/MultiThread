@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate", "Delegate\Delegate.csproj", "{707281D3-1FBA-42BB-A5B4-0122FBA776E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegate", "Delegate\Delegate.csproj", "{707281D3-1FBA-42BB-A5B4-0122FBA776E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncOperationInPool", "AsyncOperationInPool\AsyncOperationInPool.csproj", "{6DABA240-BA77-4776-B6C5-C061029C8A1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncOperationInPool", "AsyncOperationInPool\AsyncOperationInPool.csproj", "{6DABA240-BA77-4776-B6C5-C061029C8A1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPool", "ThreadPool\ThreadPool.csproj", "{50CAC1BF-D8DA-4C9A-8993-C7663878F388}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadPool", "ThreadPool\ThreadPool.csproj", "{50CAC1BF-D8DA-4C9A-8993-C7663878F388}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancelAsyncInPool", "CancelAsyncInPool\CancelAsyncInPool.csproj", "{294FC8CC-AEFB-4BBB-82C5-212FEAF7E623}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancelAsyncInPool", "CancelAsyncInPool\CancelAsyncInPool.csproj", "{294FC8CC-AEFB-4BBB-82C5-212FEAF7E623}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitAndTimeout", "WaitAndTimeout\WaitAndTimeout.csproj", "{888CDE71-7ED7-48B9-89D9-5951C90D0791}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaitAndTimeout", "WaitAndTimeout\WaitAndTimeout.csproj", "{888CDE71-7ED7-48B9-89D9-5951C90D0791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerClass", "TimerClass\TimerClass.csproj", "{6160FE3F-BB44-411B-894E-56FC3B95C6BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackGroundWorkerClass", "BackGroundWorkerClass\BackGroundWorkerClass.csproj", "{BCF7C52D-5439-4185-B3B5-DD612E2E26C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{888CDE71-7ED7-48B9-89D9-5951C90D0791}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{888CDE71-7ED7-48B9-89D9-5951C90D0791}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{888CDE71-7ED7-48B9-89D9-5951C90D0791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6160FE3F-BB44-411B-894E-56FC3B95C6BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6160FE3F-BB44-411B-894E-56FC3B95C6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6160FE3F-BB44-411B-894E-56FC3B95C6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6160FE3F-BB44-411B-894E-56FC3B95C6BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF7C52D-5439-4185-B3B5-DD612E2E26C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF7C52D-5439-4185-B3B5-DD612E2E26C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF7C52D-5439-4185-B3B5-DD612E2E26C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF7C52D-5439-4185-B3B5-DD612E2E26C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
