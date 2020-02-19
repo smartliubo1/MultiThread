@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LazyLoad", "LazyLoad\LazyLoad.csproj", "{6C93DFB5-5FA4-415C-93E0-BC77557FBB6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelPipeline", "ParallelPipeline\ParallelPipeline.csproj", "{9E881AD7-6F38-4355-A21E-C2E1322C0978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPLDataFlow", "TPLDataFlow\TPLDataFlow.csproj", "{6CA22BD8-E874-47EF-905D-F6B28F02A6D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapReduceMode", "MapReduceMode\MapReduceMode.csproj", "{66C9CC5C-8425-4166-8449-2CFC31887FD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C93DFB5-5FA4-415C-93E0-BC77557FBB6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C93DFB5-5FA4-415C-93E0-BC77557FBB6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C93DFB5-5FA4-415C-93E0-BC77557FBB6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C93DFB5-5FA4-415C-93E0-BC77557FBB6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E881AD7-6F38-4355-A21E-C2E1322C0978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E881AD7-6F38-4355-A21E-C2E1322C0978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E881AD7-6F38-4355-A21E-C2E1322C0978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E881AD7-6F38-4355-A21E-C2E1322C0978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CA22BD8-E874-47EF-905D-F6B28F02A6D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA22BD8-E874-47EF-905D-F6B28F02A6D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA22BD8-E874-47EF-905D-F6B28F02A6D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA22BD8-E874-47EF-905D-F6B28F02A6D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C9CC5C-8425-4166-8449-2CFC31887FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C9CC5C-8425-4166-8449-2CFC31887FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C9CC5C-8425-4166-8449-2CFC31887FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C9CC5C-8425-4166-8449-2CFC31887FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4D995DE-3E69-4478-A016-C2F147D865C1}
+	EndGlobalSection
+EndGlobal

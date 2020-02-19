@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncFile", "AsyncFile\AsyncFile.csproj", "{4DD764C3-8DC0-40F3-8D78-614696B175AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncHttp", "AsyncHttp\AsyncHttp.csproj", "{90C3E31F-3DA0-48A3-9A8D-44F7C187F4FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DD764C3-8DC0-40F3-8D78-614696B175AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DD764C3-8DC0-40F3-8D78-614696B175AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DD764C3-8DC0-40F3-8D78-614696B175AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DD764C3-8DC0-40F3-8D78-614696B175AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90C3E31F-3DA0-48A3-9A8D-44F7C187F4FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C3E31F-3DA0-48A3-9A8D-44F7C187F4FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C3E31F-3DA0-48A3-9A8D-44F7C187F4FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C3E31F-3DA0-48A3-9A8D-44F7C187F4FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3C1CBF2-7375-486C-AA25-36A9D2D9A2A4}
+	EndGlobalSection
+EndGlobal
